@@ -1,7 +1,9 @@
+@media only screen and 
+   ( max-width: 500px){
 body{
     background-image: url("12grid.png");
 }
-
+}
 
 #ping{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
