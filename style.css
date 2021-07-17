@@ -3,7 +3,7 @@
 body{
     background-image: url("12grid.png");
 }
-}
+
 
 #ping{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -200,4 +200,5 @@ border-spacing: 5px;
 .copyright a{
     color:green;
     text-decoration: none;
+}
 }
