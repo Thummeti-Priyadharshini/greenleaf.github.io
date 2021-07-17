@@ -1,5 +1,58 @@
-@media only screen and 
-   ( max-width: 100%){
+media only screen and 
+   ( max-width: 500px){
+
+    .container{
+        border:3px solid green;
+        padding:0px 0px 0px;
+    max-width: 400px;
+    display: flex;
+    margin-top: 100px;
+    column-gap: 50px;
+    }
+    .container__image{
+        margin: 40px 30px 0 0;
+        max-width:100%;
+        height:max-content;
+        
+    
+        object-fit:contain;
+        align-self:flex-start;
+    }
+    .container__text{
+    flex :1 1 auto;
+     
+      
+    
+    }
+    nav{
+        background-image:url("burger2.jpeg");
+        background-position:center;   
+        background-repeat: no-repeat;
+        background-size:cover;
+    width: 100%px;
+    height:50vh;
+    border-style:solid;
+    border-color:black;
+    border-left-width: 100px;
+    border-right-width:100px ;
+    }
+    .container1{
+        margin-top: 500px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color: rgb(10, 124, 10);
+        
+    }
+
+
+
+   }
+body{
+    background-image: url("12grid.png");
+}
+   
+
+
 body{
     background-image: url("12grid.png");
 }
